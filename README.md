@@ -4,7 +4,7 @@
 首先，引入依赖；
 ```xml
 <dependency>
-    <groupId>io.github.ForteScarlet.simple-robot-component</groupId>
+    <groupId>io.github.ForteScarlet.simple-robot</groupId>
     <artifactId>component-cqhttp-spring-boot-starter</artifactId>
     <version>${version}</version>
 </dependency>
