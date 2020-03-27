@@ -40,7 +40,7 @@
         <!-- core starter -->
         <dependency>
             <groupId>io.github.simple-robot</groupId>
-            <artifactId>core.spring-boot-starter</artifactId>
+            <artifactId>core-spring-boot-starter</artifactId>
             <version>1.9.0</version>
         </dependency>
     </dependencies>
