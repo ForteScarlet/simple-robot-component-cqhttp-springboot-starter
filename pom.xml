@@ -6,11 +6,31 @@
     <packaging>jar</packaging>
     <modelVersion>4.0.0</modelVersion>
 
+<!--    <parent>-->
+<!--        <groupId>org.sonatype.oss</groupId>-->
+<!--        <artifactId>oss-parent</artifactId>-->
+<!--        <version>7</version>-->
+<!--    </parent>-->
+
     <groupId>io.github.ForteScarlet.simple-robot</groupId>
     <artifactId>component-cqhttp-spring-boot-starter</artifactId>
     <version>1.9.0</version>
 
+    <dependencyManagement>
+        <dependencies>
+            <!-- oss-parent -->
+            <dependency>
+                <groupId>org.sonatype.oss</groupId>
+                <artifactId>oss-parent</artifactId>
+                <version>7</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
+
+
+
         <!-- 1.9.x最后一个版本 -->
         <dependency>
             <groupId>io.github.ForteScarlet.simple-robot-core</groupId>
