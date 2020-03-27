@@ -17,16 +17,6 @@
     <!-- version 1.9.0 -->
     <version>1.9.0</version>
 
-<!--    <dependencyManagement>-->
-<!--        <dependencies>-->
-<!--            &lt;!&ndash; oss-parent &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>org.sonatype.oss</groupId>-->
-<!--                <artifactId>oss-parent</artifactId>-->
-<!--                <version>7</version>-->
-<!--            </dependency>-->
-<!--        </dependencies>-->
-<!--    </dependencyManagement>-->
 
     <dependencies>
 

@@ -5,12 +5,18 @@
 ## 使用
 首先，引入依赖；
 > https://search.maven.org/artifact/io.github.ForteScarlet.simple-robot/component-cqhttp-spring-boot-starter
+
+**Maven**
 ```xml
 <dependency>
     <groupId>io.github.ForteScarlet.simple-robot</groupId>
     <artifactId>component-cqhttp-spring-boot-starter</artifactId>
     <version>${version}</version>
 </dependency>
+```
+**Gradle**
+```
+implementation 'io.github.ForteScarlet.simple-robot:component-cqhttp-spring-boot-starter:${version}'
 ```
 
 然后编写好配置类（与Springboot公用一个`application.properties`配置类）
