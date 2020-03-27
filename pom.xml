@@ -3,29 +3,30 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <packaging>jar</packaging>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
 
-<!--    <parent>-->
-<!--        <groupId>org.sonatype.oss</groupId>-->
-<!--        <artifactId>oss-parent</artifactId>-->
-<!--        <version>7</version>-->
-<!--    </parent>-->
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
 
     <groupId>io.github.ForteScarlet.simple-robot</groupId>
     <artifactId>component-cqhttp-spring-boot-starter</artifactId>
+    <!-- version 1.9.0 -->
     <version>1.9.0</version>
 
-    <dependencyManagement>
-        <dependencies>
-            <!-- oss-parent -->
-            <dependency>
-                <groupId>org.sonatype.oss</groupId>
-                <artifactId>oss-parent</artifactId>
-                <version>7</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+<!--    <dependencyManagement>-->
+<!--        <dependencies>-->
+<!--            &lt;!&ndash; oss-parent &ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>org.sonatype.oss</groupId>-->
+<!--                <artifactId>oss-parent</artifactId>-->
+<!--                <version>7</version>-->
+<!--            </dependency>-->
+<!--        </dependencies>-->
+<!--    </dependencyManagement>-->
 
     <dependencies>
 
