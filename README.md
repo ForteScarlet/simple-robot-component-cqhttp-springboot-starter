@@ -29,6 +29,7 @@ public class TestApplication {
     }
 }
 ```
+其中，`@SimpleRobotSpringBootApplication`是[核心启动器](https://github.com/ForteScarlet/simple-robot-core)所提供的，如果切换官方启动器，理论上不需要变更代码。
 
 ## 其他链接
 
