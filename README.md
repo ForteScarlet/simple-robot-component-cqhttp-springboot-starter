@@ -24,7 +24,8 @@ implementation 'io.github.ForteScarlet.simple-robot:component-cqhttp-spring-boot
 ```
 
 然后编写好配置类（与Springboot公用一个`application.properties`配置类）
-配置编好后在启动类上使用`@SimpleRobotSpringBootApplication`代替`@SpringbootApplication`注解，并启动Springboot即可。
+~~配置编好后在启动类上使用`@SimpleRobotSpringBootApplication`代替`@SpringbootApplication`注解，并启动Springboot即可。~~
+
 ```java
 @SimpleRobotSpringBootApplication
 public class TestApplication {
@@ -33,9 +34,26 @@ public class TestApplication {
     }
 }
 ```
-其中，`@SimpleRobotSpringBootApplication`是[核心启动器](https://github.com/ForteScarlet/simple-robot-core-springboot-starter)所提供的，如果切换官方启动器，理论上不需要变更代码。
+~~其中，`@SimpleRobotSpringBootApplication`是[核心启动器](https://github.com/ForteScarlet/simple-robot-core-springboot-starter)所提供的，如果切换官方启动器，理论上不需要变更代码。~~
+
+**`1.9.1`之后，不再需要更替启动注解了。像往常一样即可。**
+
+```java
+@SpringBootApplication
+public class RunApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(RunApplication.class, args);
+    }
+}
+```
+
+
 
 ## 其他链接
+
+快速启动器的Demo项目
+
+
 
 #### 核心
 
