@@ -51,9 +51,8 @@ public class RunApplication {
 
 ## 其他链接
 
-快速启动器的Demo项目
-
-
+#### 快速启动器的Demo项目
+https://github.com/ForteScarlet/simple-robot-demo-cqhttp-sbstarter
 
 #### 核心
 
