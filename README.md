@@ -19,6 +19,7 @@
 </dependency>
 ```
 **Gradle**
+
 ```
 implementation 'io.github.ForteScarlet.simple-robot:component-cqhttp-spring-boot-starter:${version}'
 ```
@@ -49,6 +50,28 @@ public class RunApplication {
 
 
 
+## 核心启动器
+
+每一个组件启动器中一般来说都包含一个核心启动器。
+
+正常情况下，你无需手动导入此坐标。
+
+核心启动器的坐标为：
+
+> 仓库地址：https://search.maven.org/artifact/io.github.ForteScarlet.simple-robot/core-spring-boot-starter
+
+```xml
+<dependency>
+    <groupId>io.github.ForteScarlet.simple-robot</groupId>
+    <artifactId>core-spring-boot-starter</artifactId>
+    <version>${version}</version>
+</dependency>
+```
+
+但是，假如：组件启动器的版本为`1.9.1`，而**前缀同为**`1.9`的核心启动器的最新一个版本是`1.9.2`，那么你可以选择手动导入这个更新一个版本的核心来升级内部的核心启动器。
+
+
+
 ## 其他链接
 
 #### 快速启动器的Demo项目
@@ -66,3 +89,5 @@ https://github.com/ForteScarlet/simple-robot-component-coolHttpApi
 
 https://github.com/ForteScarlet/simple-robot-core-springboot-starter
 
+# 更新日志
+查看[UPDATE.md](./UPDATE.md)文件

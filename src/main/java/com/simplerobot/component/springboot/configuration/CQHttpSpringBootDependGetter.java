@@ -6,6 +6,7 @@ import org.springframework.beans.factory.BeanFactory;
 /**
  * @author <a href="https://github.com/ForteScarlet"> ForteScarlet </a>
  */
+@Deprecated
 public class CQHttpSpringBootDependGetter implements DependGetter {
 
     private BeanFactory beanFactory;

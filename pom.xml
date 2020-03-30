@@ -14,8 +14,12 @@
 
     <groupId>io.github.ForteScarlet.simple-robot</groupId>
     <artifactId>component-cqhttp-spring-boot-starter</artifactId>
-    <!-- version 1.9.1 -->
-    <version>1.9.1</version>
+    <!-- version 1.9.3 2020/3/30 -->
+    <version>1.9.3</version>
+
+    <properties>
+        <core-starter.version>1.9.3</core-starter.version>
+    </properties>
 
     <dependencies>
         <!-- 1.9.x最后一个版本 -->
@@ -35,7 +39,7 @@
         <dependency>
             <groupId>io.github.ForteScarlet.simple-robot</groupId>
             <artifactId>core-spring-boot-starter</artifactId>
-            <version>1.9.1</version>
+            <version>${core-starter.version}</version>
         </dependency>
     </dependencies>
 
