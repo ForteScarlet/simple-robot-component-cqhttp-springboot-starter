@@ -3,7 +3,6 @@ package com.simplerobot.component.springboot.configuration;
 import com.forte.component.forcoolqhttpapi.CoolQHttpApplication;
 import com.simplerobot.core.springboot.configuration.SpringBootDependGetter;
 import com.simplerobot.core.springboot.configuration.SpringbootQQLogBack;
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
