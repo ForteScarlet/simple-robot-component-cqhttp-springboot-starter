@@ -11,7 +11,7 @@ import com.simplerobot.core.springboot.configuration.SpringBootDependGetter;
 /**
  * @author <a href="https://github.com/ForteScarlet"> ForteScarlet </a>
  */
-@SimpleRobotApplication(resources = "/application.properties")
+@SimpleRobotApplication(resources = "application.properties")
 public class CQHttpSpringBootBeanFactoryApp implements CoolQHttpApp {
 
     private DependGetter dependGetter;

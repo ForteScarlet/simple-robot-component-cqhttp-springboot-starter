@@ -14,16 +14,15 @@
 
     <groupId>io.github.ForteScarlet.simple-robot</groupId>
     <artifactId>component-cqhttp-spring-boot-starter</artifactId>
-    <!-- version 1.13.0 2020/6/18 -->
-    <version>1.13.0</version>
+    <!-- version 1.14.0 2020/6/23 -->
+    <version>1.14.0</version>
 
     <properties>
-        <core-starter.version>1.13.0</core-starter.version>
-        <component-cqhttp-starter.version>1.2.1-1.13</component-cqhttp-starter.version>
+        <core-starter.version>1.14.0</core-starter.version>
+        <component-cqhttp-starter.version>1.2.1-1.14</component-cqhttp-starter.version>
     </properties>
 
     <dependencies>
-        <!-- 1.13.x最后一个版本 -->
         <dependency>
             <groupId>io.github.ForteScarlet.simple-robot-core</groupId>
             <artifactId>component-forcoolqhttpapi</artifactId>

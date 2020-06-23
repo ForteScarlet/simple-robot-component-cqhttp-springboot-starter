@@ -3,7 +3,6 @@ package com.simplerobot.component.springboot.configuration;
 import com.forte.component.forcoolqhttpapi.CoolQHttpApplication;
 import com.forte.qqrobot.Application;
 import com.forte.qqrobot.BaseApplication;
-import com.forte.qqrobot.anno.depend.Beans;
 import com.simplerobot.core.springboot.configuration.SpringBootDependGetter;
 import com.simplerobot.core.springboot.configuration.SpringbootQQLogBack;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
